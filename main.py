@@ -22,7 +22,7 @@ def gen():
     else:
         os.system(f"title Bruter is Now Working. Checking for - {auau}")
         Header = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36", "accept-language": "ja,en-US;q=0.9,en;q=0.8"}
-        req = requests.get(f'https://discord.com', headers=Header, proxies=dict(http=f"http://{auau}", https=f"http://{auau}"))
+        req = requests.get(f'https://www.google.com', headers=Header, proxies=dict(http=f"http://{auau}", https=f"http://{auau}"))
         if req.status_code == 200:
             aaa = gratient.purple("Alive Proxy")
             print(f"{Fore.LIGHTBLUE_EX}{aaa} ->{Fore.RESET} {auau}")
